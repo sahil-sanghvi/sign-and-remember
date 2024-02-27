@@ -1,6 +1,7 @@
-/* :root {
+:root {
     --white-color: #fff;
-} */
+    --card-border-style: 5px solid green;
+}
 
 .card {
     position: relative;
@@ -31,17 +32,12 @@
     transition-delay: 0.2s;
 }
 
-.flipped .back
-{
+.flipped .back {
     transform: rotateY(90deg);
     transition-delay: 0s;
 }
 
-.flipped .matching img
-{
-
-    border: 5px;
-    border-color: green;
-    border-style: solid;
+.flipped .matching img {
+    border: var(--card-border-style);
     border-radius: 10%;
 }
