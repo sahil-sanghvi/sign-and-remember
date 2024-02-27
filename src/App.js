@@ -4,21 +4,21 @@ import { useEffect, useState } from 'react';
 import SingleCard from './components/SingleCard';
 
 const cardImages = [
-  { "src": "/asl-words/Father.png" ,matched: false,num:1},
-  { "src": "/asl-words/Good.png" ,matched: false,num:2},
-  { "src": "/asl-words/Mother.png" ,matched: false,num:3},
-  { "src": "/asl-words/Night.png" ,matched: false,num:4},
-  { "src": "/asl-words/No.png" ,matched: false,num:5},
-  { "src": "/asl-words/Yes.png",matched: false,num:6}
+  { "src": "sahil-sanghvi/sign-and-remember/public/asl-words/Father.png" ,matched: false,num:1},
+  { "src": "sahil-sanghvi/sign-and-remember/public/asl-words/Good.png" ,matched: false,num:2},
+  { "src": "sahil-sanghvi/sign-and-remember/public/asl-words/Mother.png" ,matched: false,num:3},
+  { "src": "sahil-sanghvi/sign-and-remember/public/asl-words/Night.png" ,matched: false,num:4},
+  { "src": "sahil-sanghvi/sign-and-remember/public/asl-words/No.png" ,matched: false,num:5},
+  { "src": "sahil-sanghvi/sign-and-remember/public/asl-words/Yes.png",matched: false,num:6}
 ]
 
 const cardVideos = [
-  { "src": "/asl-videos/Father in ASL.gif" ,matched: false,num:1},
-  { "src": "/asl-videos/Good in ASL.gif" ,matched: false,num:2},
-  { "src": "/asl-videos/Mother in ASL.gif" ,matched: false,num:3},
-  { "src": "/asl-videos/Night in ASL.gif" ,matched: false,num:4},
-  { "src": "/asl-videos/No in ASL.gif" ,matched: false,num:5},
-  { "src": "/asl-videos/Yes in ASL.gif",matched: false,num:6}
+  { "src": "sahil-sanghvi/sign-and-remember/public/asl-videos/Father in ASL.gif" ,matched: false,num:1},
+  { "src": "sahil-sanghvi/sign-and-remember/public/asl-videos/Good in ASL.gif" ,matched: false,num:2},
+  { "src": "sahil-sanghvi/sign-and-remember/public/asl-videos/Mother in ASL.gif" ,matched: false,num:3},
+  { "src": "sahil-sanghvi/sign-and-remember/public/asl-videos/Night in ASL.gif" ,matched: false,num:4},
+  { "src": "sahil-sanghvi/sign-and-remember/public/asl-videos/No in ASL.gif" ,matched: false,num:5},
+  { "src": "sahil-sanghvi/sign-and-remember/public/asl-videos/Yes in ASL.gif",matched: false,num:6}
 ]
 
 
